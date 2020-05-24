@@ -12,6 +12,10 @@ class User extends CI_Controller {
         $base_url = load_class('Config')->config['base_url'];
     }
 
+    public function index(){
+        return redirect($base_url.'/user/login'); 
+    }
+
 	public function register()
 	{
         $user= $this->session->get_userdata();
