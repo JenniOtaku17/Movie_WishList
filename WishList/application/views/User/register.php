@@ -1,6 +1,7 @@
 
 <div class="container">
-  <h2>Register</h2>
+<div style="background-color: #fff; padding: 2%; margin-top:5%;">
+  <h2 style="text-align: center;">Sign UP</h2>
   
   <?= form_open('user/store') ?>
   <div class="form-group">
@@ -43,7 +44,8 @@
         <?= form_input($confirm) ?>
         <br>
 
-        <?= form_submit('', 'Register', 'class=""btn btn-primary') ?>
+        
+        <?= form_submit('', 'Register', 'class="btn btn-primary"') ?>
   </div>
   <?= form_close() ?>
 

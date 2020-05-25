@@ -20,7 +20,7 @@
                     "<img class='card-img-top' src='http://image.tmdb.org/t/p/w780"+item.poster_path+"' alt='Card image' height='300'>"+
                     "<h4 class='card-title'>"+ item.title + "</h4>"+
                              "<p class='card-text'><i>Relased Date: "+ item.release_date + "</i></p>"+
-                             "<a href='"+url+"index.php/movie/add/"+item.id+"' class='btn btn-info '><span class='glyphicon glyphicon-heart'></span>Add</a>"+
+                             "<a href='"+url+"index.php/movie/add/"+item.id+"' class='btn btn-primary '><span class='glyphicon glyphicon-heart'></span>Add</a>"+
                              "<a href='#' class='btn btn-primary' data-toggle='collapse' data-target='#demo"+item.id+"'>See Overview</a>"+
                              " <div id='demo"+item.id+"' class='collapse'>"+item.overview+"</div>"+
                              "</div>"; 

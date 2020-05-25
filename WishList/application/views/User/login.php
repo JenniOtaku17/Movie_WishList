@@ -1,5 +1,6 @@
 <div class="container">
-  <h2>LogIn</h2>
+<div style="background-color: #fff; padding: 2%; margin-top:5%;">
+  <h2 style="text-align: center;">Log In</h2>
   
   <?= form_open('user/processlogin') ?>
   <div class="form-group">
@@ -30,11 +31,12 @@
         <?= form_label('Password:', 'password') ?>
         <?= form_input($password) ?>
         <br>
-
-        <?= form_submit('', 'Log In', 'class=""btn btn-primary') ?>
+        
+        <?= form_submit('', 'Log In', 'class="btn btn-primary"') ?>
 
   </div>
   <?= form_close() ?>
-
+    </div>
+    </div>
 </body>
 </html>
